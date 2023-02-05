@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ea">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Contactos Favoritos</title>
+
+</head>
+
+<body class="cuerpo">
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <p class="navbar-brand">ML Agenda Web</p>
+                <p class="navbar-brand">Favoritos</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu de Agenda</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contactos.html">Contactos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="favoritos.html">Favoritos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="perfil_usuario.html">Mi Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ToDo_list.html">To Do List</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Cerrar Sesion</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar Contacto"
+                                aria-label="Search">
+                            <button class="btn btn-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br><br><br>
+    </header>
+
+    <p class="titulo">Tus Contactos Favoritos</p>
+    <br><br>
+
+    <!--AQUI VA TODO LO RELACIONADO A LA ESTRUCTURA DEL MAIN-->
+
+    <!--PARTE DONDE VAN LOS CONTACTOS FVORITOS-->
+    <main>
+
+        <!--CONTACTO DE MOISES LEMUS-->
+        <div class="container">
+            <div class="row row-contacto">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#contacto1"
+                    aria-controls="offcanvasWithBothOptions">
+                    <div class="row row-contacto">
+                        <div class="col-md-6 col-sm-12 mt-2 mb-2 fs-3">
+                            <img src="https://images.vexels.com/media/users/3/134803/isolated/lists/dc835f4dbe0dc396f68307d6c593a1d7-icono-de-estrella-de-dibujos-animados.png"
+                                width="70px">
+                            <img src="https://images.vexels.com/media/users/3/135118/isolated/lists/676bf0e9f3c16649cd7f426c6dcd755a-signo-de-usuario-plano-con-fondo-redondo.png"
+                                width="70px">
+                            Moises Lemus
+                        </div>
+                        <div class="col-md-6 col-sm-12  mt-3 fs-3 mb-3 ">
+                            <p">(502) 5987-5219</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <br>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="contacto1"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Informacion del Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body contacto">
+                <img src="https://images.vexels.com/media/users/3/135118/isolated/lists/676bf0e9f3c16649cd7f426c6dcd755a-signo-de-usuario-plano-con-fondo-redondo.png"
+                    width="150px">
+                <p>Nombre: Moises Lemus</p>
+                <p>Telefono: (502) 5987-5219</p>
+                <p>Empresa: Epic Games</p>
+                <p>Correo: moiseslemus156@gmail.com</p>
+                <br>
+                <div class="form-check form-switch form-check-reverse text-start config">
+                    <input class="form-check-input text-start" type="checkbox" id="flexSwitchCheckReverse">
+                    <label class="form-check-label text-start" for="flexSwitchCheckReverse">Silenciar
+                        Notiicaciones</label>
+                </div><br>
+                <p class="config"><img src="https://www.shareicon.net/data/256x256/2015/10/03/650177_music_512x512.png"
+                        width="30px">
+                    Personalizar notificaciones</p><br>
+                <p class="config"><img src="https://cdn-icons-png.flaticon.com/128/2618/2618557.png" width="30px">
+                    Cifrado</p><br>
+                <p class="config"><img
+                        src="https://images.vexels.com/media/users/3/192563/isolated/lists/359b7ef7222d4b02114e5f4aa7beaf93-reloj-analogico-de-24-tiempos.png"
+                        width="30px">
+                    Mensajes temporales</p><br>
+                <p class="config"><img
+                        src="https://images.vexels.com/media/users/3/134803/isolated/lists/dc835f4dbe0dc396f68307d6c593a1d7-icono-de-estrella-de-dibujos-animados.png"
+                        width="30px">
+                    Añadir/Quitar de Favoritos</p><br>
+                <p class="config-rojo"><img src="https://cdn-icons-png.flaticon.com/128/838/838361.png" width="30px">
+                    Bloquear contacto</p><br>
+                <p class="config-rojo"><img src="https://cdn-icons-png.flaticon.com/128/2609/2609170.png" width="30px">
+                    Reportar contacto</p><br>
+            </div>
+        </div>
+
+
+        <!--CONTACTO DE JOSUE HERNANDEZ-->
+        <div class="container">
+            <div class="row row-contacto">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#contacto4"
+                    aria-controls="offcanvasWithBothOptions">
+                    <div class="row row-contacto">
+                        <div class="col-md-6 col-sm-12 mt-2 mb-2 fs-3">
+                            <img src="https://images.vexels.com/media/users/3/134803/isolated/lists/dc835f4dbe0dc396f68307d6c593a1d7-icono-de-estrella-de-dibujos-animados.png"
+                                width="70px">
+                            <img src="https://images.vexels.com/media/users/3/135118/isolated/lists/676bf0e9f3c16649cd7f426c6dcd755a-signo-de-usuario-plano-con-fondo-redondo.png"
+                                width="70px">
+                            Josue Hernandez
+                        </div>
+                        <div class="col-md-6 col-sm-12  mt-3 fs-3 mb-3 ">
+                            <p">(502) 1595-3575</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <br>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="contacto4"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Informacion del Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body contacto">
+                <img src="https://images.vexels.com/media/users/3/135118/isolated/lists/676bf0e9f3c16649cd7f426c6dcd755a-signo-de-usuario-plano-con-fondo-redondo.png"
+                    width="150px">
+                <p>Nombre: Josue Hernandez</p>
+                <p>Telefono: (502) 1595-3575</p>
+                <p>Empresa: Humana Call Center</p>
+                <p>Correo: bensio356@gmail.com</p>
+                <br>
+                <div class="form-check form-switch form-check-reverse text-start config">
+                    <input class="form-check-input text-start" type="checkbox" id="flexSwitchCheckReverse">
+                    <label class="form-check-label text-start" for="flexSwitchCheckReverse">Silenciar
+                        Notiicaciones</label>
+                </div><br>
+                <p class="config"><img src="https://www.shareicon.net/data/256x256/2015/10/03/650177_music_512x512.png"
+                        width="30px">
+                    Personalizar notificaciones</p><br>
+                <p class="config"><img src="https://cdn-icons-png.flaticon.com/128/2618/2618557.png" width="30px">
+                    Cifrado</p><br>
+                <p class="config"><img
+                        src="https://images.vexels.com/media/users/3/192563/isolated/lists/359b7ef7222d4b02114e5f4aa7beaf93-reloj-analogico-de-24-tiempos.png"
+                        width="30px">
+                    Mensajes temporales</p><br>
+                <p class="config"><img
+                        src="https://images.vexels.com/media/users/3/134803/isolated/lists/dc835f4dbe0dc396f68307d6c593a1d7-icono-de-estrella-de-dibujos-animados.png"
+                        width="30px">
+                    Añadir/Quitar de Favoritos</p><br>
+                <p class="config-rojo"><img src="https://cdn-icons-png.flaticon.com/128/838/838361.png" width="30px">
+                    Bloquear contacto</p><br>
+                <p class="config-rojo"><img src="https://cdn-icons-png.flaticon.com/128/2609/2609170.png" width="30px">
+                    Reportar contacto</p><br>
+            </div>
+        </div>
+
+        <!--CONTACO DE ABRIL MORALES-->
+
+        <div class="container">
+            <div class="row row-contacto">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#contacto8"
+                    aria-controls="offcanvasWithBothOptions">
+                    <div class="row row-contacto">
+                        <div class="col-md-6 col-sm-12 mt-2 mb-2 fs-3">
+                            <img src="https://images.vexels.com/media/users/3/134803/isolated/lists/dc835f4dbe0dc396f68307d6c593a1d7-icono-de-estrella-de-dibujos-animados.png"
+                                width="70px">
+                            <img src="https://images.vexels.com/media/users/3/135118/isolated/lists/676bf0e9f3c16649cd7f426c6dcd755a-signo-de-usuario-plano-con-fondo-redondo.png"
+                                width="70px">
+                            Abril Morales
+                        </div>
+                        <div class="col-md-6 col-sm-12  mt-3 fs-3 mb-3 ">
+                            <p">(502) 6493-4518</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="contacto8"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Informacion del Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body contacto">
+                <img src="https://images.vexels.com/media/users/3/135118/isolated/lists/676bf0e9f3c16649cd7f426c6dcd755a-signo-de-usuario-plano-con-fondo-redondo.png"
+                    width="150px">
+                <p>Nombre: Abril Morales</p>
+                <p>Telefono: (502) 6493-4518</p>
+                <p>Empresa: Apple</p>
+                <p>Correo: abrilmorales155@gmail.com</p>
+                <br>
+                <div class="form-check form-switch form-check-reverse text-start config">
+                    <input class="form-check-input text-start" type="checkbox" id="flexSwitchCheckReverse">
+                    <label class="form-check-label text-start" for="flexSwitchCheckReverse">Silenciar
+                        Notiicaciones</label>
+                </div><br>
+                <p class="config"><img src="https://www.shareicon.net/data/256x256/2015/10/03/650177_music_512x512.png"
+                        width="30px">
+                    Personalizar notificaciones</p><br>
+                <p class="config"><img src="https://cdn-icons-png.flaticon.com/128/2618/2618557.png" width="30px">
+                    Cifrado</p><br>
+                <p class="config"><img
+                        src="https://images.vexels.com/media/users/3/192563/isolated/lists/359b7ef7222d4b02114e5f4aa7beaf93-reloj-analogico-de-24-tiempos.png"
+                        width="30px">
+                    Mensajes temporales</p><br>
+                <p class="config"><img
+                        src="https://images.vexels.com/media/users/3/134803/isolated/lists/dc835f4dbe0dc396f68307d6c593a1d7-icono-de-estrella-de-dibujos-animados.png"
+                        width="30px">
+                    Añadir/Quitar de Favoritos</p><br>
+                <p class="config-rojo"><img src="https://cdn-icons-png.flaticon.com/128/838/838361.png" width="30px">
+                    Bloquear contacto</p><br>
+                <p class="config-rojo"><img src="https://cdn-icons-png.flaticon.com/128/2609/2609170.png" width="30px">
+                    Reportar contacto</p><br>
+            </div>
+        </div>
+        <br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
