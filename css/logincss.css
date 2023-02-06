@@ -1,7 +1,9 @@
-/*COLORES   #D6F9FF    #1AB3FF      #016EE6      #0D55FC      #0C27F2*/
-
 .cuerpo{
-    background-color: #016EE6;
+  background: linear-gradient(#0081C9, pink);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 .titulo{
@@ -91,4 +93,3 @@
     display: block;
     margin-top: 12px;
   }
-  

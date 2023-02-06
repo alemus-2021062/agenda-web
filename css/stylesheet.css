@@ -1,7 +1,10 @@
-/*COLORES   #D6F9FF    #1AB3FF      #016EE6      #0D55FC      #0C27F2*/
-
 .cuerpo{
-    background-color: #0081C9;
+    background: linear-gradient(#0081C9, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /*background-color: #0081C9;*/
     font-family: 'Itim', cursive;
 }
 
@@ -53,3 +56,115 @@
     color: black;
 }
 
+.fondo-perfil-varios{
+    background: linear-gradient(to bottom right, #0081C9, #86E5FF);
+}
+
+.fondo-perfil{
+    
+    background: linear-gradient(to bottom left, #0081C9 50%, #86E5FF 50%);
+}
+
+.columna1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.columna2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borde{
+    background: linear-gradient(70deg, #0081C9, #86E5FF);
+    border-radius: 100px;
+}
+
+.borde2{
+    background: linear-gradient(70deg, #0081C9, #86E5FF);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.column-edit{
+    text-align: end;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top:30px ;
+}
+
+.boton1{
+    background-color: #86E5FF;
+}
+
+.boton1:hover{
+    background-color:#5adbff ;
+}
+
+.boton2{
+    background-color: #86E5FF;
+    margin-left: 40px;
+}
+
+.boton2:hover{
+    background-color: #5adbff;
+    margin-left: 40px;
+}
+
+   .apartados{
+    padding: 10px;
+    background-color: #5BC0F8;
+    border-radius: 20px;
+   }
+
+   .apartados:hover{
+    padding: 11px;
+    background-color: #2cb5ff;
+    border-radius: 20px;
+   }
+
+.contenedor-info{
+    background-color: #ace2ff;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+.tarea{
+    display: flex;
+    align-items: center;
+}
+
+
+.row-contacto-tareas{
+    background-color: #86E5FF;
+    border-radius: 20px;
+}
+
+.btn-tuerca{
+
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.prioridad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo-ToDo{
+    background: linear-gradient(#0081C9, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
